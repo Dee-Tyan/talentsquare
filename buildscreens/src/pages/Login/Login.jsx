@@ -13,7 +13,7 @@ const Login = () => {
           <h1 className="text-2xl my-8 font-bold">Log in to your account</h1>
           <p className="text-xs">
             {" "}
-            Don't have an account? <span> Get Started</span>
+            Don't have an account? <span className="text-blue"> Get Started</span>
           </p>
 
           <div className="flex flex-col">
