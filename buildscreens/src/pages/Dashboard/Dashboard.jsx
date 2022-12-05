@@ -1,18 +1,17 @@
-import React from 'react'
-import Header from '../../components/Header/Header'
-import SideNav from '../../components/SideNav/SideNav'
-import VAccount from '../../components/VAccounts/VAccounts'
-import AF from '../../components/ActivityFeed/AF'
+import React from "react";
+import Header from "../../components/Header/Header";
+import SideNav from "../../components/SideNav/SideNav";
+import VAccount from "../../components/VAccounts/VAccounts";
+
 
 const Dashboard = () => {
   return (
-    <div className='bg-bgcolor h-screen'>
-        <Header/>
-        <SideNav/>
-        <VAccount />
-        <AF />
+    <div className="fixed bg-bgcolor">
+      <Header/>
+      <SideNav />
+      <VAccount />
     </div>
-  )
-}
+  );
+};
 
-export default Dashboard
+export default Dashboard;

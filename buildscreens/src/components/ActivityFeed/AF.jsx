@@ -5,8 +5,8 @@ import dodo from "../../assets/dodo.svg";
 
 const AF = () => {
   return (
-    <div class="relative top-32 h-screen bg-white">
-      <div class="absolute inset-y-0 right-0 w-96 px-4">
+    <div class=" bg-white">
+      <div class="w-96 px-4">
         <div className="flex justify-between">
           <h3 className="text-sm font-bold">
             Activity Feed <span className="text-dgrey">- GT Bank </span>
