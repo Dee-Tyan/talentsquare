@@ -154,7 +154,7 @@ const VAccount = () => {
                 Activity Feed <span className="text-dgrey">- GT Bank </span>
               </h3>
               <div className="flex flex-row items-center">
-                <h6 className="green-500 text-xs"> Active</h6>
+                <h6 className="text-green text-xs"> Active</h6>
                 <h6 className="text-xs ml-2">. Created 16days ago</h6>
               </div>
             </div>

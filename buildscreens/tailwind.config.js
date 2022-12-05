@@ -19,6 +19,7 @@ module.exports = {
        dtext: "#65717C",
        hblue: "#1A72F7",
        gto: "#FFEDE3",
+       green: "#02BA81",
      }
 
     },

@@ -103,7 +103,7 @@ const SideNav = () => {
                 
               </NavLink>
             </li>
-            <p className="text-green-500 text-xs text-center"> New</p>
+            <p className="text-green text-xs text-center"> New</p>
             
           </ul>
         </nav>
