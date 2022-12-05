@@ -18,16 +18,16 @@ import abuja from "../../assets/abuja.svg";
 
 const VAccount = () => {
   return (
-    <div className="px-10">
-      <div className="">
-        <img src={vad} className="mb-16" />
+    <div className="pl-60">
+      <div className="pr-4">
+        <img src={vad} className="mb-12 mt-8" />
       </div>
 
-      <div class="">
+      <div class=" w-2/3">
         <img src={generated} />
       </div>
 
-      <div className="mt-8 py-12 px-4">
+      <div className="mt-8 py-12 px-4 w-2/3 bg-white">
         <div className="flex justify-between">
           <h3>Your Virtual Accounts</h3>
           <img src={licons} />
@@ -51,7 +51,7 @@ const VAccount = () => {
               <h3 className="text-dtext">Total Inflow</h3>
         </div>
 
-        <table className="w-full text-sm">
+        <table className="w-full text-xs">
 
           <tbody>
             <tr className="">
@@ -71,7 +71,7 @@ const VAccount = () => {
                 <img src={ikeja} />
               </td>
 
-              <td>NGN 100, 000.00</td>
+              <td>NGN100,000.00</td>
 
               <td>
                 <img src={more} className="text-center px-16" />
@@ -93,7 +93,7 @@ const VAccount = () => {
                 <img src={dodo} />
               </td>
 
-              <td>NGN 100, 000.00</td>
+              <td>NGN100,000.00</td>
 
               <td>
                 <img src={more} className="text-center px-16" />
@@ -117,7 +117,7 @@ const VAccount = () => {
                 <img src={dodo} />
               </td>
 
-              <td>NGN 100, 000.00</td>
+              <td>NGN100,000.00</td>
 
               <td>
                 <img src={more} className="text-center px-16" />
@@ -141,7 +141,7 @@ const VAccount = () => {
                 <img src={abuja} />
               </td>
 
-              <td>NGN 100, 000.00</td>
+              <td>NGN100,000.00</td>
 
               <td>
                 <img src={more} className="text-center px-16" />

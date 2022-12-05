@@ -13,9 +13,12 @@ module.exports = {
        white: "#FFFFFF",
        blue: "#5444F2",
        grey: "#E1E1E1",
+       dgrey: "#65717C",
        ltxt: "#65717C",  
        lblue: "#F5F6FA",
-       dtext: "#65717C"
+       dtext: "#65717C",
+       hblue: "#1A72F7",
+       gto: "#FFEDE3",
      }
 
     },

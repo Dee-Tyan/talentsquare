@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import Login from './pages/Login/Login.jsx'
 import Dashboard from './pages/Dashboard/Dashboard.jsx'
 import VAccount from './components/VAccounts/VAccounts'
+import AF from './components/ActivityFeed/AF';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route path="/login" element={<Login />} />
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/dd" element={<VAccount />} />
+      <Route path="/af" element={<AF />} />
 
 
       </Routes>
