@@ -17,7 +17,7 @@ import audit from "../../assets/audit.svg";
 
 const SideNav = () => {
   return (
-    <div className="bg-white w-52 h-screen fixed top-20 bottom-0 z-50">
+    <div className="bg-white w-52 h-screen overflow-y-scroll fixed top-20 bottom-0 z-50">
       <div className="pt-4 mb-36">
         <nav>
           <ul>
